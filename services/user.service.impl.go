@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/DevProblems/sarang-gin-mongo-apis/models"
+	"github.com/GSY6690/go-gin-mongo-apis/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
