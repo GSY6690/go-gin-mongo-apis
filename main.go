@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/DevProblems/sarang-gin-mongo-apis/controllers"
-	"github.com/DevProblems/sarang-gin-mongo-apis/services"
+	"github.com/GSY6690/go-gin-mongo-apis/controllers"
+	"github.com/GSY6690/go-gin-mongo-apis/services"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
