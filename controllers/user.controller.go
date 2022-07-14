@@ -1,6 +1,5 @@
 package controllers
 
-//컨트롤러 설치
 import (
 	"net/http"
 
@@ -9,12 +8,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-//추가
 type UserController struct {
 	UserService services.UserService
 }
 
-//유저
 func New(userservice services.UserService) UserController {
 	return UserController{
 		UserService: userservice,
