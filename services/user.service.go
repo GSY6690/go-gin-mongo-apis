@@ -1,6 +1,6 @@
 package services
 
-import "github.com/DevProblems/sarang-gin-mongo-apis/models"
+import "github.com/GSY6690/go-gin-mongo-apis/models"
 
 type UserService interface {
 	CreateUser(*models.User) error
